@@ -1,0 +1,6 @@
+<?php
+const API_URL = 'http://api.cloudschool.tw';
+
+// API ³]©w
+const CLIENT_ID = 'xxxxxxxx';
+const CLIENT_SECRET = 'xxxxxxx';
