@@ -4,12 +4,20 @@ namespace TcApi;
 class TcApi
 {
 
-
+    /**
+     * @var string
+     */
     public $method;
 
+    /**
+     * @var resource
+     */
     protected $_ch;
 
-    protected $apiName;
+    /**
+     * @var string
+     */
+    public $apiName;
 
     
     public function __construct()
