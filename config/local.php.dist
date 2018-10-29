@@ -1,0 +1,16 @@
+<?php
+const API_URL = 'http://api.cloudschool.tw';
+
+// API 設定
+const CLIENT_ID = 'xxxxxxxx';
+const CLIENT_SECRET = 'xxxxxxx';
+
+
+// 資料庫設定
+$mysqlConn = [
+    'host' => "mysqldb",
+    'user' => "root",
+    'password' => "root",
+    'dbname' => "school_cms",
+    'charset' => "utf8mb4"
+];
